@@ -1,8 +1,0 @@
----
-- hosts: 172.31.85.203
-  become: yes 
-  tasks: 
-  - name:  i want to install webserver 
-    apt:
-      name: apache2
-      state: present
